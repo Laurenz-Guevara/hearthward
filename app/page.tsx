@@ -1,3 +1,4 @@
+import { CTABlock } from "@/components/cta-block";
 import { HeroBanner } from "@/components/hero-banner";
 import { MaxWidthWrapper } from "@/components/max-width-wrapper";
 import { MediaContentRightCard } from "@/components/media-content-right-card";
@@ -11,6 +12,9 @@ export default function Home() {
         <MultiBlockCard />
       </MaxWidthWrapper>
       <HeroBanner />
+      <MaxWidthWrapper className="space-y-10 sm:space-y-20">
+        <CTABlock />
+      </MaxWidthWrapper>
     </section>
   );
 }
