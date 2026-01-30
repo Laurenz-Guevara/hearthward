@@ -6,7 +6,7 @@ import { ThemeSwitcher } from "./theme-switcher";
 
 export function Header() {
   return (
-    <nav className="fixed bottom-0 sm:sticky bg-background sm:top-0 h-14 sm:h-20 w-full">
+    <nav className="fixed bottom-0 sm:sticky bg-background sm:top-0 h-14 sm:h-20 w-full z-50">
       <div className="sm:container mx-auto w-full flex justify-between items-center h-full px-4 space-x-2">
         <BrandMark />
         <Navigation className="order-3 sm:order-2" />
