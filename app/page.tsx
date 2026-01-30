@@ -1,51 +1,16 @@
-import { LogoutButton } from "@/components/logout-button";
+import { HeroBanner } from "@/components/hero-banner";
 import { MaxWidthWrapper } from "@/components/max-width-wrapper";
-import Link from "next/link";
+import { MediaContentRightCard } from "@/components/media-content-right-card";
+import { MultiBlockCard } from "@/components/multi-block-card";
 
 export default function Home() {
   return (
-    <section>
-      <MaxWidthWrapper>
-        <p>Home</p>
-        <nav>
-          <ul>
-            <li>
-              <Link
-                href="/household"
-                className="underline underline-offset-4"
-              >
-                Household
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/pricing"
-                className="underline underline-offset-4"
-              >
-                Pricing
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/account"
-                className="underline underline-offset-4"
-              >
-                Account
-              </Link>
-            </li>
-          </ul>
-        </nav>
-        <LogoutButton />
-        <Link
-          href="/auth/sign-up"
-          className="underline underline-offset-4"
-        >
-          Sign up
-        </Link>
-        <Link href="/auth/login" className="underline underline-offset-4">
-          Login
-        </Link>
+    <section className="space-y-10 sm:space-y-20 py-20">
+      <MaxWidthWrapper className="space-y-10 sm:space-y-20">
+        <MediaContentRightCard />
+        <MultiBlockCard />
       </MaxWidthWrapper>
+      <HeroBanner />
     </section>
   );
 }
