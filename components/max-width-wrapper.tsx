@@ -11,7 +11,7 @@ export function MaxWidthWrapper({
   return (
     <div
       className={cn(
-        "min-h-screen py-5 px-5",
+        "min-h-screen mx-auto py-5 px-4",
         className,
       )}
     >

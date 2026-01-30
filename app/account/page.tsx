@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
-import { MaxWidthWrapper } from "@/components/MaxWidthWrapper";
+import { MaxWidthWrapper } from "@/components/max-width-wrapper";
 
 async function UserDetails() {
   const supabase = await createClient();

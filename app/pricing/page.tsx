@@ -1,4 +1,4 @@
-import { MaxWidthWrapper } from "@/components/MaxWidthWrapper";
+import { MaxWidthWrapper } from "@/components/max-width-wrapper";
 import Link from "next/link";
 
 export default function Pricing() {

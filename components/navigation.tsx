@@ -40,7 +40,7 @@ export function Navigation({ className }: { className?: string }) {
                 <BrandMark />
               </SheetTitle>
             </SheetHeader>
-            <div className="flex flex-wrap px-5 space-y-2">
+            <div className="flex flex-wrap px-4 space-y-2">
               <div className="w-full">
                 <p className="font-bold">Household</p>
                 <ul className="grid grid-cols-1">
