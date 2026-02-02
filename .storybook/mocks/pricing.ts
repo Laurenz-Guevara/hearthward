@@ -1,4 +1,4 @@
-import { PriceCardProps } from '../../types/pricing';
+import { PriceCardProps } from "@/types/pricing";
 
 export const membershipPlans: PriceCardProps[] = [
   {
