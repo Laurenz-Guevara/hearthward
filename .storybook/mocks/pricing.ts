@@ -1,18 +1,6 @@
-import { MaxWidthWrapper } from "@/components/max-width-wrapper";
-import { PriceCTA } from "@/components/price-cta";
-import { PriceCardProps } from "@/types/pricing";
+import { PriceCardProps } from '../../types/pricing';
 
-export default function Pricing() {
-  return (
-    <section className="min-h-screen">
-      <MaxWidthWrapper>
-        <PriceCTA membershipPlans={membershipPlans} />
-      </MaxWidthWrapper>
-    </section>
-  );
-}
-
-const membershipPlans: PriceCardProps[] = [
+export const membershipPlans: PriceCardProps[] = [
   {
     title: "Free",
     monthlyPrice: "0",
@@ -56,4 +44,3 @@ const membershipPlans: PriceCardProps[] = [
     paymentLink: "#"
   }
 ]
-

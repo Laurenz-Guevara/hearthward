@@ -22,7 +22,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { IconMenu2 } from '@tabler/icons-react';
-import { BrandMark } from "@/components/brand-mark";
+import { Logo } from "@/components/logo";
 
 export function Navigation({ className }: { className?: string }) {
   return (
@@ -37,7 +37,7 @@ export function Navigation({ className }: { className?: string }) {
           <SheetContent side="bottom">
             <SheetHeader>
               <SheetTitle>
-                <BrandMark />
+                <Logo />
               </SheetTitle>
             </SheetHeader>
             <div className="flex flex-wrap px-4 space-y-2">

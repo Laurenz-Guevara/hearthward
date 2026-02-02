@@ -1,7 +1,7 @@
 import { Separator } from "@/components/ui/separator"
 import { IconBrandGithub, IconTerminal2 } from "@tabler/icons-react"
 import Link from "next/link"
-import { BrandMark } from "./brand-mark"
+import { Logo } from "./logo"
 
 export function Footer() {
   return (
@@ -10,7 +10,7 @@ export function Footer() {
         <Separator className="mb-0" />
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-20">
           <div className="flex flex-auto">
-            <BrandMark />
+            <Logo />
           </div>
           <div className="flex flex-col space-y-2">
             <Link className="text-sm hover:text-blue-400 w-min text-nowrap" href="/household">
