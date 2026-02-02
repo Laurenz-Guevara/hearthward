@@ -1,17 +1,11 @@
 import { MaxWidthWrapper } from "@/components/max-width-wrapper";
-import Link from "next/link";
+import { PriceCTA } from "@/components/price-cta";
 
 export default function Pricing() {
   return (
     <section className="min-h-screen">
       <MaxWidthWrapper>
-        <Link
-          href="/"
-          className="underline underline-offset-4"
-        >
-          Home
-        </Link>
-        <p>Pricing</p>
+        <PriceCTA />
       </MaxWidthWrapper>
     </section>
   );
