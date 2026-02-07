@@ -176,6 +176,12 @@ interface NavigationContent {
 const navigationContent: NavigationContent = {
   household: [
     {
+      title: "Create",
+      href: "/create-a-household",
+      description:
+        "Create a new household",
+    },
+    {
       title: "Household",
       href: "/household",
       description:

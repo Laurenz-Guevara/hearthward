@@ -4,6 +4,7 @@ import { ThemeProvider } from "next-themes";
 import { Header } from "@/components/header"
 import "./globals.css";
 import { Footer } from "@/components/footer";
+import { Toaster } from "@/components/ui/sonner"
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -37,6 +38,7 @@ export default function RootLayout({
         >
           <Header />
           <main className="min-h-screen mx-auto">{children}</main>
+          <Toaster />
           <Footer />
         </ThemeProvider>
       </body>
